@@ -1,0 +1,277 @@
+.main{
+width: 100%;
+height: 100%;
+}
+.navbar{
+    height: 40px;
+    width: 100%;
+    /* background-color: red; */
+}
+
+.nav-logo{
+    width: 25%;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    
+}
+
+.nav-logo h3{
+    font-size: 12px;
+    margin: 10px;
+    width: 100%;
+}
+.nav-menu{
+    height: 40px;
+    width: 75%;
+    padding: 5px;
+}
+
+.nav-menu ul {
+    width: 100%;
+    height: 30px;
+    display: flex;
+    align-items: center;
+    justify-content:space-around;
+}
+.nav-menu ul li a{
+    font-size: 12px;
+    /* display: flex;
+    align-items: center;
+    justify-content: center; */
+}
+
+.content{
+    width: 100%;
+    height: 250px;
+}
+
+.content-up{
+    width: 100%;
+    height: 80px;
+    /* background-color: green; */
+    padding: 2px;
+}
+
+.content-up h2{
+    font-size: 30px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #f9fafa;
+}
+
+.content-down{
+    width: 100%;
+    height: 180px;
+    color: orangered;
+}
+.content-down h1{
+    font-size: 35px;
+    font-family: serif;
+    margin-left: 0px;
+    color: orangered;
+}
+
+.btn2{
+    width: 20%;
+    height: 20px;
+    margin-left: 120px;
+    font-size: 10px;
+    border-radius: 1px;
+    background-color: rgb(44, 32, 150);
+    color: #f9fafa;
+}
+
+.content2{
+    width: 100%;
+    height: 1400px;
+    display: flex;
+    flex-direction: column;
+}
+.content2-one{
+    width: 100%;
+    height: 400px;
+    border: 1px solid #dddddd;
+    background-color: whitesmoke;
+    padding: 10px;
+}
+
+.content2-two{
+    width: 100%;
+    height: 400px;
+    border: 1px solid #dddddd;
+    background-color: whitesmoke;
+    padding: 10px;
+}
+
+.content2-three{
+    width: 100%;
+    height: 400px;
+    border: 1px solid #dddddd;
+    background-color: whitesmoke;
+    padding: 10px;
+}
+.content3{
+    width: 100%;
+    height: 200px;
+}
+.content3 h1{
+    font-size: 35px;
+}
+.content4{
+    width: 100%;
+    height: 100%;
+    padding: 10px;
+    background-color: antiquewhite;
+}
+
+.content4-child{
+    width: 100%;
+    height: 100%;
+    background-color: azure;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    border-radius: 1px;
+}
+.header h1{
+    width: 100%;
+    height: 50px;
+    font-size: 25px;
+}
+.content4-card{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.content4image{
+    width: 100%;
+    height: 350px;
+    border: 2px solid #dddddd;
+}
+
+.btn3{
+    width: 50%;
+    height: 40px;
+    font-size: 20px;
+    font-weight: 100;
+    border-radius: 3px;
+    background-color: rgb(209, 43, 1);
+    color: #f9fafa;
+}
+.content5{
+    width: 100%;
+    height: 250px;
+
+}
+.content5-left{
+    width: 100%;
+    height: 250px;
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    border: 1px solid white;
+    font-size: 8px;
+}
+.content5-header2{
+    width: 75%;
+    height: 20%;
+    background-color: #fff;
+}
+.content5-header2 h2{
+    margin-top: 2px;
+    background-color: white;
+}
+
+.paragraph2{
+    width: 100%;
+    align-items: self-start;
+    display: flex;
+    padding-top: 0px;
+
+}
+.content5-right{
+    width: 100%;
+    height: 250px;
+}
+.content5-right img{
+    width: 100%;
+    height: 248px;
+    background-position: center;
+    border-radius: 2px;
+}
+
+.content6{
+    width: 100%;
+    height: 100%;
+    /* flex-direction: column; */
+    display: flex;
+    /* background-color: red; */
+}
+
+.content6-left{
+    width: 50%;
+    height: 300px;
+
+}
+.content6-form{
+background-color: lightslategray;
+}
+.content6-form input{
+    display: flex;
+    background: transparent;
+    text-align: center;
+}
+
+.content6-form{
+    width: 100%;
+    height: 300px;
+    /* background-color: aqua; */
+}
+.content6-form h1{
+    font-size: 20px;
+}
+.content6-form p{
+    font-size: 10px;
+    color: #000;
+}
+::placeholder{
+    color: #000;
+}
+.btn4{
+    background-color: white;
+    color: rgb(0, 0, 0);
+    font-size: 10px;
+    height: 20px;
+    font-weight: 500;
+}
+
+.content6-right{
+    width: 50%;
+    height: 300px;
+    /* background-color: green; */
+}
+
+.content6-text{
+    width: 100%;
+    height: 300px;
+    /* background-color: #fff; */
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-around;
+
+}
+
+.content7{
+    width: 100%;
+    height: 50px;
+    /* background-color: red; */
+}
+.content7 h2{
+    font-size: 14px;
+}
